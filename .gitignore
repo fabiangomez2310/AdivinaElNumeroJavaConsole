@@ -1,32 +1,30 @@
-# Compiled class files
-*.class
-
-# Log files
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# NetBeans-specific
+# NetBeans
 nbproject/private/
 build/
-nbbuild/
 dist/
-nbdist/
-.nb-gradle/
-*.bak
+
+# Java
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+# OS generated files
+.DS_Store
+Thumbs.db
 
 # IntelliJ IDEA
 .idea/
-*.iml
-out/
 
-# VS Code
-.vscode/
+# Eclipse
+.settings/
 
-# OS-specific
-.DS_Store
-Thumbs.db
+# Maven
+target/
+
+# Gradle
+.gradle/
+
+# Logs
+*.log
